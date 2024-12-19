@@ -7,11 +7,9 @@ import pickle
 with open('models/model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-
-# Load the trained model
+# Alternatively, load the trained model using joblib
 # Replace 'pcos_model.pkl' with your actual model file
 model = joblib.load("path/to/PCOS_LogisReg.pkl")
-
 
 st.title("PCOS Prediction App")
 st.markdown("### Enter patient details to predict the likelihood of PCOS:")
