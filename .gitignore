@@ -1,0 +1,49 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset files
+dataset/
+*.csv
+*.xlsx
+*.json
+
+# Trained model files
+models/
+*.pkl
+*.joblib
+*.h5
+
+# Streamlit files
+.streamlit/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment configuration
+.env
+*.env
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Deployment files (optional, for local-only configurations)
+*.local
